@@ -3,7 +3,7 @@ import Pet1 from "@/image/friends/001.png";
 
 export default function Friends() {
   return (
-    <div className="w-full h-full bg-white flex flex-col justify-start items-center rounded-2xl p-5">
+    <div className="w-full h-full min-w-[320px] bg-white flex flex-col justify-start items-center rounded-2xl p-5 flex flex-col justify-start items-center rounded-2xl p-12 shadow-lg overflow-y-auto  overflow-x-hidden">
       {/* Title at the top */}
       <p className="text-2xl font-bold mb-4">HYU Friends</p>
       

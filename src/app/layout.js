@@ -78,13 +78,13 @@ export default function RootLayout({ children }) {
                 </div>
               </Link>
               <div className="w-full h-[84px] bg-gray-300 rounded-xl flex justify-center items-center">
-                （空空）
+                （以後作品放這）
               </div>
               <div className="w-full h-[84px] bg-gray-300 rounded-xl flex justify-center items-center">
-                （如也）
+                （空空如也）
               </div>
               <div className="w-full h-[84px] bg-gray-300 rounded-xl flex justify-center items-center">
-                以後做個小遊戲放這
+                （以後做個小遊戲放這）
               </div>
             </div>
           </div>
