@@ -36,11 +36,13 @@ export default function RootLayout({ children }) {
             className="min-w-[320px] w-full sm:w-[320px] h-full rounded-2xl bg-white flex 
             justify-start items-center flex-col p-[30px] pt-[80px] overflow-y-auto overflow-x-hidden"
           >
-            <Image
-              src={AvatarImg}
-              alt="Avatar"
-              className="w-[80px] h-[80px] rounded-full"
-            />
+            <Link href="/">
+              <Image
+                src={AvatarImg}
+                alt="Avatar"
+                className="w-[80px] h-[80px] rounded-full cursor-pointer"
+              />
+            </Link>
 
             <h1 className="mt-2 text-xl font-semibold">曾泓語</h1>
             <p className="max-w-[300px] text-center text-sm text-gray-600">
