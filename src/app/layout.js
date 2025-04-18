@@ -18,8 +18,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "我的數位履歷",
-  description: "還沒做好QAQ",
+  title: "我的網站",
+  description: "早安",
 };
 
 export default function RootLayout({ children }) {
@@ -72,11 +72,13 @@ export default function RootLayout({ children }) {
                 </div>
               </Link>
 
+              <Link href="/hyu-friends">
+                <div className={`w-full h-[84px] bg-gray-300 rounded-xl flex justify-center items-center`}>
+                  HYU Friends
+                </div>
+              </Link>
               <div className="w-full h-[84px] bg-gray-300 rounded-xl flex justify-center items-center">
-                （空）
-              </div>
-              <div className="w-full h-[84px] bg-gray-300 rounded-xl flex justify-center items-center">
-                （空）
+                （空空）
               </div>
               <div className="w-full h-[84px] bg-gray-300 rounded-xl flex justify-center items-center">
                 （如也）
