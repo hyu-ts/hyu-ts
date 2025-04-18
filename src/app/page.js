@@ -1,7 +1,6 @@
 "use client"
 
 import { useState } from "react";
-import BlurText from "../component/BlurText";
 
 export default function Home() {
 
@@ -17,15 +16,6 @@ export default function Home() {
 
   return (
     <div className="flex w-full h-full bg-red justify-center items-center rounded-2xl">
-      
-      <BlurText
-        text="救救孩子！"
-        delay={150}
-        animateBy="words"
-        direction="top"
-        onAnimationComplete={handleAnimationComplete}
-        className="text-2xl mb-8"
-      />
 
       <div className="cursor-pointer flex flex-col justify-center items-center"
         onClick={addHouse}
