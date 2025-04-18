@@ -4,7 +4,7 @@ export default function About() {
       <div className="text-left mb-12">
         <h2 className="text-3xl font-semibold text-600 mb-6">About</h2>
         <ul className="list-none pl-6 mb-5">
-          <li className="text-lg text-gray-700 mb-2">ENFP | 台南</li>
+          <li className="text-lg text-gray-700 mb-2">2005 | ENFP | 台南</li>
           <li className="text-lg text-gray-700 mb-2">興趣：聽音樂、吃甜食、旅行</li>
           <li className="text-lg text-gray-700 mb-2">專長：如果我說沒有呢......</li>
           <li className="text-lg text-gray-700 mb-2">不擅長：各項運動、社交</li>

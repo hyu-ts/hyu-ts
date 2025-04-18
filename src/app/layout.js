@@ -44,7 +44,7 @@ export default function RootLayout({ children }) {
 
             <h1 className="mt-2 text-xl font-semibold">曾泓語</h1>
             <p className="max-w-[300px] text-center text-sm text-gray-600">
-              20y | NCCU
+              哈囉！這是我的網站。
             </p>
 
             {/* 社群連結 */}
